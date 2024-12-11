@@ -1,0 +1,28 @@
+{
+    "name": "Miguel/PROYECTO_FARMACIA",
+    "description": "Proyecto de Farmacia Primer Trimestre",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Pablo\\FarmaciaPHP\\": "./",
+            "Controllers\\": "./Controllers",
+            "Models\\": "./Models",
+            "Lib\\": "./Lib",
+            "Utils\\": "./Utils",
+            "Config\\": "./Config",
+            "Views\\": "./Views"
+        }
+    },
+    "authors": [
+        {
+            "name": "Miguel Tejero Tejedor",
+            "email": "migueee909@gmail.com"
+
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "stefangabos/zebra_pagination": "^2.4"
+    }
+}
